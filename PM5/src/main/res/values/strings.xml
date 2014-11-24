@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Total Droids</string>
+    <string name="action_settings">Settings</string>
+    <string name="splashlogo">splashlogo</string>
+    <string name="build">Build 1.0.3</string>
+    <string name="subtitle">Android Device Enumerator</string>
+    <string name="Title">TOTAL DROIDS</string>
+    <string name="contact">ed@ryer.ru</string>
+    <string name="STATUS">LOADING,,,</string>
+    <string name="loadstatus">Please wait while Connecting!</string>
+    <string name="refresh">Refresh</string>
+    <string name="primary">Large Text</string>
+    <string name="secondary1">Medium Text</string>
+    <string name="secondary2">Small Text</string>
+    <string name="counter">Large Text</string>
+
+</resources>

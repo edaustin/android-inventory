@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/primary"
+            android:id="@+id/lvtext1"
+            android:layout_column="2"
+            android:textColor="#fffff958"
+            android:singleLine="true"
+            android:paddingStart="5dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/secondary1"
+            android:id="@+id/lvtext2"
+            android:layout_column="2"
+            android:paddingStart="5dp"
+            android:textColor="#ffff7d00" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/secondary2"
+            android:id="@+id/lvtext3"
+            android:layout_column="2"
+            android:paddingStart="5dp"
+            android:textColor="#ff00ff47" />
+    </TableRow>
+
+</TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/counter"
+        android:id="@+id/counter"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
+
+</FrameLayout>
+
+
