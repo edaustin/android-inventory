@@ -33,10 +33,7 @@ public class PmPrimaryActivity extends Activity implements LoaderManager.LoaderC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_primary);
 
-
         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-
-        assert (1 == 1) : Log.d(TAG, "assert");
 
         // For the cursor adapter, specify which columns go into which views
         //String[] fromColumns = {PmSQLiteHelper.COL_ID_1, PmSQLiteHelper.COL_ID_2};
